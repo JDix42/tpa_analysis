@@ -76,7 +76,7 @@ def single_frame_dihedral_calc(ag, dih_list):
     return dih_angle_deg
 
 ###
-#Here marks the start of the run section of hte code
+#Here marks the start of the run section of the code
 ###
 u=MDA.Universe("conf-pull.gro","conf-pull.trr")
 
