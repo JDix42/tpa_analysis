@@ -1,5 +1,6 @@
 import numpy as np
 import MDAnalysis as MDA
+from vector import vect_calc, norm_vect, dot_product
 
 def dihedral_calc(r1, r2, r3, r4):
     """
